@@ -1,0 +1,53 @@
+/* Estilos para la biblioteca */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  #filters {
+    margin-bottom: 20px;
+  }
+  
+  #book-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .book-item {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .book-item a {
+    display: block;
+    text-align: center;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+  }
+  
+  .book-item a:hover {
+    background-color: #45a049;
+  }
+  
+  
